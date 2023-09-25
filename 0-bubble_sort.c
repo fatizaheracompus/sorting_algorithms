@@ -25,6 +25,7 @@ return;
 				print_array(array, size);
 			}
 		}
+		x++;
 	}
 }
 
