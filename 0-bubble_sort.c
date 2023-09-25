@@ -6,12 +6,12 @@
  *@size: the size of our array
  *return: void.
  */
-void bubble_sort(int **array, size_t size)
+void bubble_sort(int *array, size_t size)
 {
 int tmp;
-size_t x = 0, y = 0;
+size_t x = 0, y;
 
-if (array == NULL || size == NULL)
+if (array == NULL || !size)
 return;
 	while (x < size)
 	{
