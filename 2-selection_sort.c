@@ -12,7 +12,7 @@ void selection_sort(int *array, size_t size)
 	size_t a, b, c;
 	int tmp;
 
-	if (array == NULL || !size)
+	if (!array || !size)
 		return;
 	for (a = 0; a < size - 1; a++)
 	{
@@ -26,7 +26,7 @@ void selection_sort(int *array, size_t size)
 		if (array[a] > array[c])
 		{
 			tmp = array[a];
-			array[a] = array[b];
+			array[a] = array[c];
 			array[c] = tmp;
 			print_array(array, size);
 		}
