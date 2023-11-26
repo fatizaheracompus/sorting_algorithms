@@ -1,9 +1,9 @@
 #include "sort.h"
 
 /**
- *bubble_sort - Function that sorted an array of integers
- *@array: array of integers
- *@size: the size of our array
+ *bubble_sort - Function that sorte an array of integers
+ *@array: array of integer
+ *@size: the size of our arraye
  *return: void.
  */
 void bubble_sort(int *array, size_t size)
