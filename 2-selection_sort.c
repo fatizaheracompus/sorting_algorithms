@@ -1,11 +1,11 @@
 #include "sort.h"
 
 /**
- *selection_sort - function that sort in array of integer
- *@array: this an array of integers
- *@size: this is a size of integers
+ *selection_sort - function that sorte in array of integer
+ *@array: this an array of integer
+ *@size: this is  size of integer
  *
- *Return: void
+ *Return: void.
  */
 void selection_sort(int *array, size_t size)
 {
